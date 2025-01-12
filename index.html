@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Institucional</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/logo.svg" alt="Logo">
+        </div>
+        <nav>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <img src="./assets/home/inicio.jpg" alt="hero">
+            <div class="hero-content">
+                <p class="hero-text1">Consultoria de Negócios &<br/> Projetos de Sustentabilidade e Impacto</p>
+                <span class="separator"></span>
+                <p class="hero-text2">Uma evolução duradoura se alcança com a definição<br/> do propósito e uma<br/> estratégia bem direcionada.</p>
+            </div>
+        </section>
+        <section id="operation">
+            <div class="operation-img"><img src="./assets/home/operation.png" alt=""></div>
+            <div class="operation-content">
+                <p class="operation-text">Atuamos em marcas que envolvem Desenvolvimento de Negócios e Projetos, Planejamento Estratégico, Fortalecimento Institucional, Comunicação e Avaliação de Impacto. Focamos em empresas que estão lançando novos negócios, enfrentando desafios específicos ou buscando desenvolver iniciativas de sustentabilidade e impacto social. Também oferecemos estratégias de comunicação e avaliação para esses projetos.
+                </p>
+            </div>
+        </section>
+        <section id="work">
+            <div class="brands">
+                <p class="brands-title">Grandes marcas conectadas</p>
+                <div class="brands-content">
+                    <img src="./assets/home/logos-brands.jpg" alt="brands">
+                </div>
+            </div>
+            <div class="projects">
+                <p class="projects-title">Grandes marcas conectadas</p>
+                <div class="projects-content">
+                    <img src="./assets/home/logos-projects.jpg" alt="projects">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Site Institucional. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            const nav = document.querySelector('nav ul');
+            menu.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
