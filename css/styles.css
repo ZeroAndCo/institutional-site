@@ -1,5 +1,20 @@
+@font-face {
+  font-family: "GraphikSemibold";
+  src: url("./fonts/Graphik-Bold-Trial.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GraphikBold";
+    src: url("./fonts/Graphik-Bold-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "KantoraSemibold";
+  src: url("./fonts/kontora-semi-bold.otf") format("opentype");
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "GraphikSemibold", Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -94,7 +109,8 @@ nav ul li a {
 }
 
 .hero-content .hero-text2 {
-  font-size: 0.90rem;
+  font-family: "KantoraSemibold", Arial, sans-serif;
+  font-size: 0.9rem;
   margin: 0;
 }
 
@@ -131,6 +147,7 @@ nav ul li a {
   color: #b5966f;
   margin: 0;
   font-size: 0.875rem;
+  font-family: "KantoraSemibold", Arial, sans-serif;
 }
 
 .brands-content {
@@ -150,6 +167,7 @@ nav ul li a {
   margin: 0;
   padding-top: 2rem;
   font-size: 0.875rem;
+  font-family: "KantoraSemibold", Arial, sans-serif;
 }
 
 .previous-projects-content {
@@ -173,6 +191,7 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1.175rem;
+  font-family: "KantoraSemibold", Arial, sans-serif;
 }
 
 .create-title p {
@@ -243,6 +262,7 @@ nav ul li a {
   font-size: 0.95rem;
   padding: 0.95rem 0 1.85rem 1.425rem;
   margin: 0;
+  font-family: "KantoraSemibold", Arial, sans-serif;
 }
 
 .work-content {
@@ -316,6 +336,7 @@ footer .contact .contact-title {
   font-size: 0.7rem;
   margin: 0;
   padding-bottom: 1.075rem;
+  font-family: "GraphikBold", Arial, sans-serif;
 }
 
 footer .contact .contact-row {
