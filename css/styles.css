@@ -73,11 +73,11 @@ nav ul li a {
 
 .hero-content {
   position: absolute;
-  top: 2.95rem;
+  top: 2rem;
   left: 1.9rem;
   color: white;
   text-align: left;
-  width: 44%;
+  width: 40%;
 }
 
 .hero-content span {
@@ -94,7 +94,7 @@ nav ul li a {
 }
 
 .hero-content .hero-text2 {
-  font-size: 0.95rem;
+  font-size: 0.90rem;
   margin: 0;
 }
 
@@ -145,21 +145,21 @@ nav ul li a {
   height: auto;
 }
 
-.projects-title {
+.previous-projects-title {
   color: #b5966f;
   margin: 0;
   padding-top: 2rem;
   font-size: 0.875rem;
 }
 
-.projects-content {
+.previous-projects-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1.5rem 2.25rem;
 }
 
-.projects-content img {
+.previous-projects-content img {
   width: 100%;
   height: auto;
 }
@@ -236,19 +236,20 @@ nav ul li a {
 
 #work {
   background-color: white;
-  padding: 1.5rem 1.9rem;
+  padding: 1.5rem 1.9rem 2.75rem;
 }
 
 .work-title {
   font-size: 0.95rem;
   padding: 0.95rem 0 1.85rem 1.425rem;
+  margin: 0;
 }
 
 .work-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.425rem 0.95rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.425rem 0.95rem;
 }
 
 .work-content button {
@@ -260,37 +261,110 @@ nav ul li a {
 }
 
 .work-content button::after {
-    content: "\00a0\00a0\00a0\00a0\00a0\25B6";
-    font-size: 0.4rem;
-  }
-
-.consulting {
-    background-color: #b5966f;
-    color: #503a2c;
+  content: "\00a0\00a0\00a0\00a0\00a0\25B6";
+  font-size: 0.4rem;
 }
 
-.consulting button{
-    border-color: #503a2c;
-    background-color: #b5966f;
+.consulting {
+  background-color: #b5966f;
+  color: #503a2c;
+  margin-bottom: 0.325rem;
+}
+
+.consulting button {
+  border-color: #503a2c;
+  background-color: #b5966f;
 }
 
 .projects {
-    background-color: #7ba987;
-    color: #1e362f;
+  background-color: #7ba987;
+  color: #1e362f;
 }
 
-.projects button{
-    border-color: #1e362f;
-    background-color: #7ba987;
+.projects button {
+  border-color: #1e362f;
+  background-color: #7ba987;
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #f6f6f6;
+  padding: 2rem 1.9rem 3.5rem;
+  color: #503a2c;
   text-align: center;
-  padding: 1em;
-  width: 100%;
   bottom: 0;
+}
+
+footer .logo {
+  width: 6.25rem;
+  margin: 0;
+}
+
+footer .line {
+  font-size: 0.6rem;
+  text-align: left;
+  margin: 1.5rem 0 2.5rem;
+  text-transform: uppercase;
+}
+
+footer .contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+footer .contact .contact-title {
+  font-size: 0.7rem;
+  margin: 0;
+  padding-bottom: 1.075rem;
+}
+
+footer .contact .contact-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer .contact-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .contact .contact-row .contact-info {
+  font-size: 0.6125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+footer .contact .contact-row .contact-info p {
+  margin: 0;
+  padding-bottom: 0.725rem;
+}
+footer .contact .contact-row .contact-info img {
+  width: 0.6125rem;
+  margin: 0;
+  justify-self: center;
+}
+
+footer .left {
+  align-items: flex-start;
+}
+
+footer .right {
+  align-items: flex-end;
+}
+
+footer .contact img {
+  width: 1.5rem;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+footer .contact p {
+  font-size: 0.55rem;
+  margin: 0;
 }
 
 /* Estilos para telas maiores */
