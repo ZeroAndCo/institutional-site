@@ -109,7 +109,7 @@ nav {
   right: 0;
   width: 20.75rem;
   margin: 1.5rem 0 0 1.9rem;
-  padding: 1.5rem 1.725rem;
+  padding: 1.5rem 0 1.5rem 1.725rem;
   box-sizing: border-box;
   overflow-y: auto;
   background: #ededed;
@@ -126,10 +126,14 @@ nav {
 }
 
 #menu li {
-  padding: 10px 0;
+  padding: 0 0 1.25rem 0;
   font-size: 0.7rem;
   color: #54392a;
 }
+
+#menu li:last-child {
+    padding: 0;
+  }
 
 #menu li:first-child label::after {
     content: "\00a0\00a0\25BC";
@@ -139,6 +143,25 @@ nav {
 #menu li:first-child ul {
     display:block;
     list-style-type: none;
+    font-size: 0.625rem;
+    margin: 0;
+    padding: 0 0 0 0.875rem;
+}
+
+#menu li:first-child ul li{
+    padding: 0.775rem 0 0 0;
+}
+
+#menu li:first-child ul li::before {
+    content: "\25B6\00a0\00a0";
+}
+
+#menu li:first-child ul li:first-child {
+    color: #b5966f;
+}
+
+#menu li:first-child ul li:last-child {
+    color: #7baa88;
 }
 
 #menu li label {
