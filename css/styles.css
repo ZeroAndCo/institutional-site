@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "GraphikBold";
-    src: url("./fonts/Graphik-Bold-Trial.otf") format("opentype");
+  font-family: "GraphikBold";
+  src: url("./fonts/Graphik-Bold-Trial.otf") format("opentype");
 }
 
 @font-face {
@@ -32,7 +32,7 @@ header {
   margin: 2rem 0 1.5rem 1.9rem;
 }
 
-nav {
+/* nav {
   position: relative;
 }
 
@@ -42,7 +42,7 @@ nav {
   cursor: pointer;
 }
 
-.hamburger-menu span {
+/* .hamburger-menu span {
   background-color: #cc6140;
   height: 3px;
   margin: 2px;
@@ -71,10 +71,9 @@ nav ul li a {
   display: block;
 }
 
-/* Mostrar o menu ao clicar no hambúrguer */
 .hamburger-menu.active + ul {
   display: block;
-}
+} */ 
 
 #hero {
   position: relative;
