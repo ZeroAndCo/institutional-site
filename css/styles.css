@@ -354,26 +354,3 @@ footer .contact p {
   font-size: 0.55rem;
   margin: 0;
 }
-
-/* Estilos para telas maiores */
-@media (min-width: 768px) {
-  .hamburger-menu {
-    display: none;
-  }
-
-  nav ul {
-    display: flex;
-    position: static;
-    flex-direction: row;
-    background-color: transparent;
-  }
-
-  nav ul li {
-    margin: 0 1em;
-    padding: 0;
-  }
-
-  footer {
-    position: static;
-  }
-}

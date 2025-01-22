@@ -8,6 +8,10 @@ nav {
   position: relative;
 }
 
+#menuRegular {
+  display: none;
+}
+
 #menuToggle {
   display: block;
   /* You can also use relative/absolute here if you want to stay on the top */
@@ -174,3 +178,4 @@ nav {
 #menuToggle input:checked ~ ul {
   transform: none;
 }
+
