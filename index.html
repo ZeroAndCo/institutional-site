@@ -172,7 +172,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="mobile-footer">
         <div class="logo">
             <img src="./assets/logo.svg" alt="Logo">
         </div>
@@ -182,6 +182,7 @@
                 <span class="contact-title">Fale conosco</span>
                 <div class="contact-info">
                     <p>Nelma Zero</p>
+                    <a href="mailto:nelma@zeroand.co">nelma@zeroand.co</a>
                     <a href="https://api.whatsapp.com/send?phone=5511994066732"><span><img src="./assets/whatsapp.png"
                                 alt="whatsapp"> +55 11 99406-6732</span></a>
                 </div>
@@ -199,15 +200,35 @@
         </div>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            print('teste');
-            const menu = document.querySelector('.hamburger-menu');
-            const nav = document.querySelector('nav ul');
-            menu.classList.toggle('active');
-            nav.classList.toggle('active');
-        }
-    </script>
+    <footer id="desktop-footer">
+        <div>
+            <div class="logo">
+                <img src="./assets/logo.svg" alt="Logo">
+            </div>
+            <p class="line">Soluções estratégicas<br>para transformar negócios.</p>
+        </div>
+        <div>
+            <span class="contact-title">Fale conosco</span>
+            <div class="contact-info">
+                <p>Nelma Zero</p>
+                <a href="mailto:nelma@zeroand.co">nelma@zeroand.co</a>
+                <a href="https://api.whatsapp.com/send?phone=5511994066732"><span>
+                    <img class="whatsapp" src="./assets/whatsapp.png" alt="whatsapp">
+                      +55 11 99406-6732</span></a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="contact-logos">
+                <a href="https://www.linkedin.com/company/zeroandco">
+                    <img src="./assets/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://www.instagram.com/zeroand.co/">
+                    <img src="./assets/instagram.png" alt="instagram">
+                </a>
+            </div>
+            <p>&copy; 2025 Zero&Co</p>
+        </div>
+    </footer>
 </body>
 
 </html>
