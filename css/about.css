@@ -1,5 +1,8 @@
 #about {
     padding: 2.05rem 1.85rem;
+}
+
+.about-text {
     font-size: 0.6rem;
     font-weight: 300;
 }
@@ -26,6 +29,7 @@
     font-family: "KantoraSemibold", Arial, sans-serif;
     font-size: 0.8rem;
     font-weight: 300;
+    color: #503a2c;
 }
 
 #about-call{
@@ -47,3 +51,61 @@
     margin: 0;
 }
     
+@media (min-width: 768px) {
+    #about {
+        padding: 8.4375rem 4.875rem;
+        display: flex;
+        color: #503a2c;
+        
+    }
+
+    .about-text {
+        font-size: 1.2rem;
+        font-weight: 300;
+        flex-grow: 1;
+        flex-basis: 65%;
+        padding: 4rem 6rem 4rem 0;
+    }
+
+    .about-img {
+        padding: 0 ;
+        flex-grow: 1;
+        flex-basis: 35%;
+    }
+
+    .about-img p:nth-child(2) {
+        font-family: "KantoraSemibold", Arial, sans-serif;
+        margin-top: 1.4rem;
+        margin-bottom: 0;
+        font-size: 2.15rem;
+        color: #b5966f;
+    }
+
+    .about-img p:last-child {
+        margin-top: 1rem;
+        margin-bottom: 0;
+        font-family: "KantoraSemibold", Arial, sans-serif;
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+
+    #about-call {
+        background-color: #5c1f2b;
+        text-align: center;
+        color: #f6f6f6;
+        padding: 10rem 0;
+        margin-bottom: 6.75rem;
+    }
+
+    #about-call h3 {
+        font-family: "KantoraSemibold", Arial, sans-serif;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #about-call p {
+        font-family: "KantoraSemibold", Arial, sans-serif;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+}
