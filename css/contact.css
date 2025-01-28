@@ -1,0 +1,108 @@
+#contact {
+  background-color: #cc6140;
+  padding: 0 1.85rem;
+  display: flex;
+  align-items: center;
+  gap: 1.85rem;
+  margin-bottom: 1.25rem;
+}
+
+#contact .contact-title {
+  font-family: "KantoraSemibold", Arial, sans-serif;
+  color: #f6f6f6;
+  flex-grow: 1;
+  flex-basis: 60%;
+}
+
+#contact .contact-title h1 {
+  font-size: 0.9rem;
+}
+
+#contact .contact-title p {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+#contact .contact-contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.5rem;
+  color: #f6f6f6;
+  background-color: #5c1f2b;
+  flex-grow: 1;
+  flex-basis: 40%;
+  margin: 2.125rem 0;
+  border-radius: 45px;
+  padding: 2rem 1rem;
+}
+
+#contact .contact-contact h1 {
+  margin: 0 0 0.4rem 0;
+}
+
+#contact .contact-contact p {
+  margin: 0 0 0.2rem 0;
+}
+
+#contact .contact-contact a {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+#contact .contact-contact a img {
+  width: 0.6125rem;
+  margin: 0;
+  justify-self: center;
+  color: #f6f6f6;
+}
+
+@media (min-width: 768px) {
+  #contact {
+    padding: 0 4.875rem;
+    margin-bottom: 3.3125rem;
+    gap: 1.85rem;
+  }
+
+  #contact .contact-title {
+    flex-grow: 1;
+    flex-basis: 75%;
+    padding-right: 10rem;
+  }
+
+  #contact .contact-title h1 {
+    font-size: 3.25rem;
+  }
+
+  #contact .contact-title p {
+    width: 60%;
+    font-size: 1.5rem;
+  }
+
+  #contact .contact-contact {
+    font-size: 1.25rem;
+    margin: 8.125rem 0;
+    border-radius: 105px;
+    padding: 5.5rem 3rem;
+    flex-basis: 25%;
+  }
+
+  #contact .contact-contact h1 {
+    margin: 0 0 1rem 0;
+  }
+
+  #contact .contact-contact p {
+    margin: 0 0 0.5rem 0;
+  }
+
+  #contact .contact-contact a {
+    color: #f6f6f6;
+    text-decoration: none;
+  }
+
+  #contact .contact-contact a img {
+    width: 0.6125rem;
+    margin: 0;
+    justify-self: center;
+    color: #f6f6f6;
+  }
+}
