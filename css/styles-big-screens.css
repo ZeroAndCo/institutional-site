@@ -107,6 +107,7 @@
 
   .hero-content .hero-text2 {
     font-size: 3.125rem;
+    line-height: -1.3125rem;
   }
 
   #operation {

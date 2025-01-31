@@ -142,7 +142,6 @@
 #solution-call h1 {
   font-family: "KantoraSemibold", Arial, sans-serif;
   font-size: 0.95rem;
-  color: #b5966f;
   margin: 0;
 }
 
@@ -157,4 +156,130 @@
   content: "\00a0\00a0\00a0\00a0\00a0\25B6";
   font-size: 0.4rem;
   color: #cc6140;
+}
+
+@media (min-width: 768px) {
+  .hero-border {
+    border: 0.125rem solid;
+    width: fit-content;
+    margin-bottom: 2rem !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+  }
+
+  .hero-border-business {
+    min-width: 20rem;
+    height: 4.5rem;
+  }
+
+  .hero-border-projects {
+    min-width: 21.6875rem;
+    height: 5rem;
+  }
+
+  #solution {
+    margin: 7.5rem 4.875rem 0.325rem;
+    padding: 0;
+  }
+  
+  #solution .solution-title {
+    padding-bottom: 5.125rem;
+    gap: 3.75rem;
+    background-color: white;
+  }
+  
+  #solution .solution-title p {
+    font-size: 3.125rem;
+  }
+  
+  #solution .solution-title span {
+    border: 0.125rem solid;
+    font-size: 1.5rem;
+    font-weight: 300;
+    height: 3.9rem;
+    width: 21rem;
+    margin-right: 7.3125rem;
+  }
+  
+  #solution .solution-content {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0px;
+    padding: 0;
+  }
+  
+  #solution .solution-content .solution-content-row {
+    border: none;
+    border-radius: 0;
+    padding: 3rem 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    flex: 1 1 0px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) -4px 0; */
+    box-shadow: rgba(149, 157, 165, 0.2) -10px 0px 24px;
+  }
+
+  #solution .solution-content .solution-content-row:first-child {
+    box-shadow: none;
+  }
+  
+  #solution .solution-content .solution-content-row:last-child {
+    margin-bottom: 0;
+  }
+  
+  #solution .solution-content .solution-content-row p {
+    margin: 0;
+    padding: 0 2.5rem;
+    min-height: 11rem ;
+  }
+  
+  #solution .solution-content .solution-content-row p:nth-child(1) {
+    padding-bottom: 2.0625rem;
+  }
+
+  #solution .solution-content .solution-content-row p:nth-child(4) {
+    padding-top: 3.75rem;
+  }
+  
+  #solution .solution-content .solution-content-row .divider {
+    height: 0.125rem;
+    display: block;
+  }
+  
+  #solution .solution-content .solution-content-row span {
+    font-weight: 900 !important;
+  }
+  
+  #solution .solution-content .solution-content-row img {
+    width: 1.5rem;
+    top: -0.85rem;
+    left: 2.5rem;
+  }
+  
+  #solution-call {
+    padding: 8.75rem 4.875rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.25rem;
+  }
+  
+  #solution-call h1 {
+    font-size: 2rem;
+  }
+  
+  #solution-call a {
+    padding: 1rem 4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-right: 7.3125rem;
+  }
+  
+  #solution-call a::after {
+    content: "\00a0\00a0\00a0\00a0\00a0\25B6";
+    font-size: 0.9rem;
+    color: #cc6140;
+  }
 }
