@@ -46,11 +46,6 @@
     content: "\00a0\00a0\25BC";
   }
 
-  /*hide the inputs/checkmarks and submenu*/
-  input {
-    display: none;
-  }
-
   /*position the label*/
   #menuRegular label {
     position: relative;

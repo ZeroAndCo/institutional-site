@@ -4,6 +4,15 @@
 
 /* Menu code starts here */
 
+/*hide the inputs/checkmarks and submenu*/
+input {
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+}
+
 nav {
   position: relative;
 }
