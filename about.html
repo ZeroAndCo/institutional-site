@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <input id="check01" type="checkbox" name="menu" />
     <header>
         <div class="logo">
             <a href="/"><img src="./assets/logo.svg" alt="Logo"></a>
@@ -50,17 +51,19 @@
 
             </div>
             <div id="menuRegular">
-                <a class="dropdown">Serviços</a>
-                <div class="dropdown-content">
-                    <a href="business.html">Consultoria de Negócios</a>
-                    <a href="projects.html">Consultoria de Projetos de Sustentabilidade e Impacto</a>
-                </div>
+                
+                <label for="check01" class="dropdown">Serviços</label>
+                
                 <a href="cases.html">Cases</a>
                 <a href="about.html">Sobre nós</a>
                 <a href="contact.html">Contato</a>
             </div>
         </nav>
     </header>
+    <div class="dropdown-content">
+        <a href="business.html">Consultoria de Negócios</a>
+        <a href="projects.html">Consultoria de Projetos de Sustentabilidade e Impacto</a>
+    </div>
 
     <main>
         <section id="hero">
