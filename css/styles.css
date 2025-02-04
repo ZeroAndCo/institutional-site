@@ -68,7 +68,7 @@ header {
 
 .hero-content .hero-text2 {
   font-family: "KantoraSemibold", Arial, sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   margin: 0;
 }
 
@@ -190,7 +190,7 @@ header {
 }
 
 .work-areas-content p {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   margin: 0;
   color: #503a2c;
 }
@@ -358,4 +358,10 @@ footer .contact img {
 footer .contact p {
   font-size: 0.55rem;
   margin: 0;
+}
+
+@media (min-width: 360px) {
+  .hero-content .hero-text2 {
+    font-size: 0.9rem;
+  }
 }

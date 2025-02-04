@@ -94,7 +94,7 @@
   border: 0.0025rem solid;
   border-radius: 25px;
   padding: 2rem 0;
-  font-size: 0.55rem;
+  font-size: 0.70rem;
   font-weight: 400;
   margin-bottom: 1.375rem;
 }
@@ -122,10 +122,10 @@
 }
 
 #solution .solution-content .solution-content-row img {
-  width: 0.525rem;
+  width: 0.6rem;
   margin: 0;
   position: relative;
-  top: -0.2625rem;
+  top: -0.30rem;
   left: 1.5rem;
 }
 
@@ -200,7 +200,6 @@
     font-weight: 300;
     height: 3.9rem;
     width: 21rem;
-    margin-right: 7.3125rem;
   }
   
   #solution .solution-content {
@@ -214,11 +213,10 @@
     border: none;
     border-radius: 0;
     padding: 3rem 0;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 300;
     margin-bottom: 0;
     flex: 1 1 0px;
-    /* box-shadow: rgba(149, 157, 165, 0.2) -4px 0; */
     box-shadow: rgba(149, 157, 165, 0.2) -10px 0px 24px;
   }
 
@@ -282,4 +280,10 @@
     font-size: 0.9rem;
     color: #cc6140;
   }
+}
+
+@media (min-width: 1900px) {
+    #solution .solution-content .solution-content-row {
+        font-size: 1.3rem;
+      }
 }
