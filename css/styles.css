@@ -360,7 +360,7 @@ footer .contact p {
   margin: 0;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 394px) {
   .hero-content .hero-text2 {
     font-size: 0.9rem;
   }
